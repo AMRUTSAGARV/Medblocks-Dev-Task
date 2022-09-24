@@ -1,9 +1,9 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import Home from "./components/Home";
-import Register from "./components/Register";
 import List from "./components/List";
 import Tree from "./components/Tree";
+import Registration from "./components/Registration";
 function App() {
   return (
     <div className="App">
@@ -27,7 +27,7 @@ function App() {
           </nav>
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route exact path="/register" element={<Register />} />
+            <Route exact path="/register" element={<Registration />} />
             <Route exact path="/list" element={<List />} />
             <Route exact path="/tree" element={<Tree />} />
           </Routes>
