@@ -1,0 +1,25 @@
+ul{
+    list-style: none;
+  
+  }
+  
+    .navbar{
+      display: flex;
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      justify-content: space-between;
+      padding: 20px;
+background: rgb(218, 249, 218);    
+    
+  }
+  
+  .nav-link{
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link li{
+    margin: 0px 30px;
+  }
