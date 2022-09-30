@@ -144,27 +144,6 @@ const Registration = () => {
             />
           </Form.Item>
 
-          <Form.Item
-            name="agreement"
-            wrapperCol={{ span: 24 }}
-            valuePropName="checked"
-            rules={[
-              {
-                validator: (_, value) =>
-                  value
-                    ? Promise.resolve()
-                    : Promise.reject(
-                        "To proceed, you need to agree with our terms and conditions"
-                      ),
-              },
-            ]}
-          >
-            <Checkbox>
-              {" "}
-              Agree to our <a href="#">Terms and Conditions</a>
-            </Checkbox>
-          </Form.Item>
-
           <Form.Item wrapperCol={{ span: 24 }}>
             <Button block type="primary" htmlType="submit">
               Register

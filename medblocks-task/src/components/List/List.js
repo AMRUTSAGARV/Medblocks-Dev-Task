@@ -37,11 +37,6 @@ const List = () => {
           <td>24</td>
           <td>Male</td>
         </tr>
-        <tr>
-          <td>Vyshnasree </td>
-          <td>19</td>
-          <td>Female</td>
-        </tr>
       </tbody>
     </table>
   );
